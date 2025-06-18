@@ -1,7 +1,8 @@
+@charset "UTF-8";
 @import 'fontawesome-all.min.css';
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 /*
-	Spectral by HTML5 UP
+	España Libre by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -3225,6 +3226,40 @@ body.is-mobile.landing .wrapper.style4 {
 }
 body.is-mobile.landing #footer {
   background-color: rgb(0, 55.8571428571, 78.2);
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #005577; /* o tu color de acento */
+}
+
+.card p {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #333333;
 }
 
 /*# sourceMappingURL=main.css.map */
